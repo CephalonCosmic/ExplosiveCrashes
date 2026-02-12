@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "explosivecrashes",
+  "version": "${version}",
+
+  "name": "ExplosiveCrashes",
+  "description": "Ever thought Creepers weren't hard enough? what if they crashed your game?",
+  "authors": ["CephalonCosmic"],
+  "contact": {
+    "issues": "https://github.com/CephalonCosmic/ExplosiveCrashes/issues",
+    "sources": "https://github.com/CephalonCosmic/ExplosiveCrashes"
+  },
+
+  "license": "MIT",
+  "icon": "assets/explosivecrashes/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.CephalonCosmic.explosivecrashes.client.ExplosiveCrashesClient"
+    ],
+    "main": [
+      "io.github.CephalonCosmic.explosivecrashes.ExplosiveCrashes"
+    ]
+  },
+
+  "mixins": [
+    "explosivecrashes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
