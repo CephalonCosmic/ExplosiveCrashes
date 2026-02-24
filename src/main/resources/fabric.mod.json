@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "explosivecrashes",
+  "id": "${id}",
   "version": "${version}",
 
-  "name": "ExplosiveCrashes",
+  "name": "${name}",
   "description": "Ever thought Creepers weren't hard enough? what if they crashed your game?",
   "authors": ["CephalonCosmic"],
   "contact": {
@@ -30,6 +30,6 @@
 
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft}"
   }
 }
